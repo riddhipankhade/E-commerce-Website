@@ -18,7 +18,7 @@ h1{
 
 html{
     font-size: 80%;
-    overflow: hidden;
+   
     scroll-behavior: smooth;
 }
 
@@ -133,3 +133,20 @@ button{
     color: #31430a;
 }
 
+.trending {
+    text-align: center;
+    font-size: large;
+}
+
+.trending h2 > span{
+    color: #657642;
+}
+
+.trending .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));;
+    padding: 35px;
+    gap: 25px;
+}
+
+.trending .box-container
