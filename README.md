@@ -1,4 +1,4 @@
 # E-commerce-Website
 
-This is my frist E-commerce Website in progress
+This is my frist E-commerce Website in progress,
 A project from Intrnforte
