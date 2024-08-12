@@ -35,7 +35,7 @@
            <h1>Welcome to <span>ShoppersMall!</span></h1>
            <p>Unleash your style with the hottest trends in modern clothing, footwear, and accessories, 
             specially curated to elevate every woman's wardrobe! </p>
-            <button>Shop Now!</button>
+            <button id="shop-now">Shop Now!</button>
         </div>
       </section>
 
@@ -49,15 +49,15 @@
                     <h3>Brown stylish jacket</h3>
                     <h5></h5>
                     <p>Price: $150</p>
-                    <button>Buy</button>
-                </div>
+                    <button class="buy">Buy</button>
+                </div> 
 
                 <div class="box">
                     <img src="footwear/084b4a041e99c93859b97241aa97ecf6.jpg" alt="">
                     <h3>black heels</h3>
                     <h5></h5>
                     <p>Price: $75</p>
-                    <button>Buy</button>
+                    <button class="buy">Buy</button>
                 </div>
 
                 <div class="box">
@@ -65,14 +65,26 @@
                     <h3>modern glasses</h3>
                     <h5></h5>
                     <p>Price: $20</p>
-                    <button>Buy</button>
+                    <button class="buy">Buy</button>
+                </div>
+
+                <div class="box">
+                    <img src="cloths/e04168a026b09c6c28d3ae18a124aa8e.jpg"> 
+                    <h3>brown top</h3>
+                    <h5></h5>
+                    <p>Price: $50</p>
+                    <button class="buy">Buy</button>
                 </div>
             </div>
 
 
       </section>
 
-
+      <script>
+        document.getElementById("shop-now").addEventListener("click",function(){
+            window.location.href = "store.html";
+        })
+      </script>
                                
        <!-- home section ends -->
     </main>

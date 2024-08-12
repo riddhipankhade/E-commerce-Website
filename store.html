@@ -33,13 +33,26 @@
       <div id="head-title">
         <h1>Choose What to Buy.</h1>
       </div>
-
-      <button class="cloths" id="options">Cloths</button>
-      <button class="footwear" id="options">footwear</button>
-      <button class="options"
-      id="accessories">accessories</button>
-      <p>Happy Shopping!</p>
+<div class="options">
+      <button id="cloths" >Cloths</button>
+      <button id="footwear" >footwear</button>
+      <button id="accessories">accessories</button>
+      <p id="end">Happy Shopping!</p>
+    </div>
     </main>
     
+    <script>
+        document.getElementById("cloths").addEventListener("click", function(){
+            window.location.href = "cloths.html";
+        });
+
+        document.getElementById("footwear").addEventListener("click", function(){
+            window.location.href = "footwear.html";
+        });
+
+        document.getElementById("accessories").addEventListener("click", function(){
+            window.location.href = "accessories.html";
+        });
+    </script>
 </body>
 </html>

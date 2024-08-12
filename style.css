@@ -148,4 +148,14 @@ button{
     padding: 35px;
     gap: 25px;
 }
+button:hover{
+    color: #6b7984;
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+
+button{
+    transition: transform 0.3s;
+    background-color: #ebeac6;
+}
 
